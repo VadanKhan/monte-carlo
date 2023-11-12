@@ -3,9 +3,9 @@ Author: Vadan Khan
 Title: Monte Carlo Basic Demo
 
 In this code, we randomly generate points in a 2x2 square and count how many fall within a unit 
-circle centered at the origin. The ratio of points inside the circle to the total number of points 
-is approximately pi/4, so we multiply our ratio by 4 to estimate pi. The more samples we use, the 
-closer our estimate will be to the true value of pi.
+    circle centered at the origin. The ratio of points inside the circle to the total number of
+    points is approximately pi/4, so we multiply our ratio by 4 to estimate pi. The more samples we 
+    use, the closer our estimate will be to the true value of pi.
 
 To edit the numper of points generated, edit NUMPNTS global variable
 """
@@ -63,6 +63,6 @@ def estimate_pi(num_samples):
 
 
 if __name__ == "__main__":
-    # Estimate pi with 1 million samples
+    # Estimate pi with n samples
     estimated_pi = estimate_pi(NUMPNTS)
     print(f"Estimated value of pi: {estimated_pi}")
