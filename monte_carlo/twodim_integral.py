@@ -11,6 +11,8 @@ This code generates random points in the unit cube (0, 0, 0) to (1, 1, 1), and c
 NB we have used an insuitable range of points here for visualisation
 
 To edit the numper of points generated, edit NUMPNTS global variable
+
+# noqa: W291
 """
 
 import numpy as np

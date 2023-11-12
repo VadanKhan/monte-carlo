@@ -8,6 +8,8 @@ This code generates random points in the unit square (0, 0) to (1, 1), and count
     for visualization. The estimated integral is printed at the end.
 
 To edit the numper of points generated, edit NUMPNTS global variable
+
+# noqa: W291
 """
 
 

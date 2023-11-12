@@ -9,6 +9,8 @@ This code generates a random walk of N steps in three dimensions. At each step, 
     the motion of a gas particle in three dimensions.
 
 To edit the numper of points generated, edit NUMPNTS global variable
+
+# noqa: W291
 """
 
 

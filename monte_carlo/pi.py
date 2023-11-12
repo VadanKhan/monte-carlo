@@ -8,6 +8,8 @@ In this code, we randomly generate points in a 2x2 square and count how many fal
     use, the closer our estimate will be to the true value of pi.
 
 To edit the numper of points generated, edit NUMPNTS global variable
+
+# noqa: W291
 """
 
 import random

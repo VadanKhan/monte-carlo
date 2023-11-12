@@ -12,8 +12,11 @@ Please note that this code does not include a plot because visualizing a 4D func
     and typically requires some form of dimensionality reduction. If you need to visualize the 
     function or the points, you might consider a pairplot or a 3D scatterplot of (x, y, z) pairs 
     that fall under the hypersurface.
-    
-To edit the number of points generated, edit NUMPNTS global variable"""
+
+To edit the number of points generated, edit NUMPNTS global variable
+
+# noqa: W291
+"""
 
 import numpy as np
 from pathlib import Path

@@ -7,7 +7,10 @@ This code generates random points in the unit cube (0, 0, 0) to (1, 1, 1), and c
     from (-1, -1) to (1, 1). The code also plots the points and the surface for visualization. The 
     estimated double integral with n samples is printed at the end.
 
-To edit the number of points generated, edit NUMPNTS global variable"""
+To edit the number of points generated, edit NUMPNTS global variable
+
+# noqa: W291
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt
