@@ -10,8 +10,6 @@ In this code, we randomly generate points in a 2x2 square and count how many fal
 To edit the numper of points generated, edit NUMPNTS global variable
 """
 
-
-import numpy as np
 import random
 import matplotlib.pyplot as plt
 from pathlib import Path
