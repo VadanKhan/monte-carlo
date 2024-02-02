@@ -16,6 +16,11 @@ To edit the numper of points generated, edit NUMPNTS global variable
 
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
+
+
+FIGURE_SAVE_LOCATION = Path().resolve() / "figures"
+FIGURE_SAVE_LOCATION.mkdir(parents=True, exist_ok=True)
 
 # Number of steps
 N = 10000
@@ -46,4 +51,5 @@ ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 plt.title('3D Random Walk')
+plt.savefig(FIGURE_SAVE_LOCATION / "3d-monte-carlo-walk.png", dpi=300)
 plt.show()

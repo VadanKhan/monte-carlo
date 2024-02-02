@@ -20,7 +20,7 @@ from pathlib import Path
 FIGURE_SAVE_LOCATION = Path().resolve() / "figures"
 FIGURE_SAVE_LOCATION.mkdir(parents=True, exist_ok=True)
 
-NUMPNTS = 1000
+NUMPNTS = 10000
 
 
 def monte_carlo_integral(num_samples):
