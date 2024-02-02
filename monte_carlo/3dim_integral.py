@@ -19,6 +19,7 @@ To edit the number of points generated, edit NUMPNTS global variable
 """
 
 import numpy as np
+from pathlib import Path
 
 FIGURE_SAVE_LOCATION = Path().resolve() / "figures"
 FIGURE_SAVE_LOCATION.mkdir(parents=True, exist_ok=True)
